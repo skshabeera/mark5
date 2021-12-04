@@ -120,11 +120,11 @@ body {
 .hero .hero-heading {
     text-align: center;
     padding-top: 1rem;
-    color:indigo;
+    color:blueviolet;
 }
 
 .hero .hero-heading .heading-inverted {
-    color:blueviolet;
+    color:indigo;
 }
 
 
