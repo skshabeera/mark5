@@ -63,7 +63,7 @@ body {
 
 .list-item-inline {
     display: inline;
-    padding: 0rem 0.5rem;
+    padding: 0rem 0rem;
 }
 .heading{
     text-align: center;
@@ -170,10 +170,17 @@ body {
 }
 
 .showcase-list {
-    padding: 2rem;
+    padding: 1rem;
 
 }
 
 .showcase-blog {
     padding-bottom: 6rem;
+}
+h1{
+    color:blueviolet;
+    text-align: center;
+}
+h2{
+    color:magenta;
 }
