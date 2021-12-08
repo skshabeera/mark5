@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Inter&family=Lato:ital,wght@0,900;1,400;1,700;1,900&family=Lora:ital,wght@0,600;1,500;1,600&family=M+PLUS+1:wght@700;900&family=Montagu+Slab:wght@400;700&family=Shippori+Antique+B1&family=Source+Sans+Pro&family=Tinos:ital,wght@0,700;1,400;1,700&family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Gelasio:ital,wght@1,600&family=Inter&family=Lato:ital,wght@0,900;1,400;1,700;1,900&family=Lora:ital,wght@0,600;1,500;1,600&family=M+PLUS+1:wght@700;900&family=Montagu+Slab:wght@400;700&family=Playfair+Display:ital,wght@0,500;1,400;1,600&family=Prociono&family=Shippori+Antique+B1&family=Source+Sans+Pro&family=Tinos:ital,wght@0,700;1,400;1,700&family=Ubuntu:ital@1&display=swap');
+
+
 
 :root {
     --primary-color:blue;
@@ -7,7 +9,8 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+     font-family: 'Gelasio', serif;
+    ;
     margin: 0px;
     font-size: large;
 
@@ -31,7 +34,7 @@ body {
 }
 
 .link-primary {
-    background-color: var(--primary-color);
+    background-color:blue;
     border-radius: 0.5rem;
      color: white; 
     display: block;
@@ -120,7 +123,7 @@ body {
 .hero .hero-heading {
     text-align: center;
     padding-top: 1rem;
-    color:blueviolet;
+    color:purple;
 }
 
 .hero .hero-heading .heading-inverted {
@@ -139,10 +142,10 @@ body {
 
 }
 
-.ow {
+/* .ow {
     background-color:var(--off-white);
 } 
-
+ */
 
 .footer {
     background-color: var(--primary-color);
@@ -178,9 +181,25 @@ body {
     padding-bottom: 6rem;
 }
 h1{
-    color:blueviolet;
+    color:darkblue;
     text-align: center;
 }
 h2{
     color:magenta;
+}
+.box{
+    background-color:lightskyblue;
+    margin: auto;
+    padding:2rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+
+}
+.main{
+    background-color:lightcoral;
+    margin: auto;
+    padding:2rem;
+    box-sizing: border-box;
+    border-radius: 2rem;
+
 }
